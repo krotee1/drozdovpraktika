@@ -1,0 +1,31 @@
+﻿<Window x:Class="Sessia1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sessia1"
+        mc:Ignorable="d"
+        Title="Amonic" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="160*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Center" Height="63" Margin="0,27,0,0" Grid.Row="1" VerticalAlignment="Top" Width="212" Source="/DS2017_TP09_color.png" RenderTransformOrigin="0.468,0.085"/>
+        <TextBlock HorizontalAlignment="Left" Margin="170,134,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" FontSize="16" FontFamily="TeX Gyre Adventor" Height="21" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="170,201,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"  FontFamily="TeX Gyre Adventor" FontSize="16" Height="22" Width="75"/>
+        <TextBox x:Name="TxbLogin" HorizontalAlignment="Left" Margin="269,129,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="28" FontFamily="TeX Gyre Adventor" FontSize="14"/>
+        <TextBox x:Name="TxbPassword" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="28" Margin="269,191,0,0" FontFamily="TeX Gyre Adventor" FontSize="14"/>
+        <Button  Name="Autr" Content="Login" HorizontalAlignment="Left" Margin="269,259,0,0" Grid.Row="1" VerticalAlignment="Top" Click="BtnSignIn_Click" Width="98" FontSize="16" FontFamily="TeX Gyre Adventor" Height="31" Background="#FFCC8B11" Foreground="White"/>
+        <Button  x:Name="Autr_2" Content="Exit" HorizontalAlignment="Left" Margin="441,259,0,0" Grid.Row="1" VerticalAlignment="Top" Click="BtnSignIn_Click_2" Width="98" FontSize="16" FontFamily="TeX Gyre Adventor" Height="31" Background="#FFCC8B11" Foreground="White"/>
+
+
+
+
+
+
+
+    </Grid>
+</Window>
